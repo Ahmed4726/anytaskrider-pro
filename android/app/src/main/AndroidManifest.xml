@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sixamtech.stackfooduser">
+    package="com.ogg.user">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -36,14 +36,14 @@
     </queries>
 
     <application
-        android:label="StackFood"
+        android:label="AnyTask Rider"
         android:name="${applicationName}"
         android:extractNativeLibs="true"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDUDEfxlI5sfTaeN-wOKphkht1ma2kgalY"/>
+            android:value="AIzaSyDgK6gSx-nQ_F-uPj00vgfz-vFuKu2fMvY"/>
 
         <activity
             android:name=".MainActivity"
